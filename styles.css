@@ -11,10 +11,12 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-}
+    margin-top: 10px;
+ }
  
  #game {
-    height: 100vh;
+    height: calc(100vh - 100px); /* Ajusta la altura del juego para dejar espacio para los stats */
+    overflow-y: auto; 
     max-height: 700px;
     display: flex;
     flex-wrap:wrap;
@@ -24,7 +26,7 @@ body {
  
  #stats {
     color: white;
-    position: relative;
+    position: absolute;
     padding: 10px;
     text-align: center;
     width: calc(100% - 2rem);
