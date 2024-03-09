@@ -11,7 +11,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
- }
+}
  
  #game {
     height: 100vh;
@@ -24,7 +24,7 @@ body {
  
  #stats {
     color: white;
-    position: absolute;
+    position: relative;
     padding: 10px;
     text-align: center;
     width: calc(100% - 2rem);
